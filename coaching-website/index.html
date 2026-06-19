@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Excel Academy - Premier coaching institute for competitive exam preparation. Expert faculty, proven results, and personalized guidance for NEET, JEE, and Board exams.">
+    <title>Excel Academy | Premier Coaching Institute</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Excel<span class="logo-accent">Academy</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Why Us</a></li>
+                <li><a href="#fees" class="nav-link">Fees</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#admission" class="nav-link">Admission</a></li>
+            </ul>
+            <button class="nav-cta" onclick="scrollToSection('admission')">Enroll Now</button>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-effects">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Admissions Open for 2026-27
+            </div>
+            <h1 class="hero-title">
+                Shape Your Future with
+                <span class="gradient-text">Expert Guidance</span>
+            </h1>
+            <p class="hero-subtitle">
+                Join the most trusted coaching institute for NEET, JEE & Board Exams. 
+                Our proven methodology and experienced faculty have helped thousands achieve their dreams.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15000">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Students Trained</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="95">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Selection Rate</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="12">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <button class="btn btn-primary" onclick="scrollToSection('admission')">
+                    <span>Apply Now</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+                <button class="btn btn-outline" onclick="scrollToSection('fees')">
+                    <span>View Fee Structure</span>
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card hero-card-float-1">
+                <div class="hero-card-icon">🎯</div>
+                <div class="hero-card-text">
+                    <strong>NEET 2025</strong>
+                    <span>Top 100 Rankers: 23</span>
+                </div>
+            </div>
+            <div class="hero-card hero-card-float-2">
+                <div class="hero-card-icon">🏆</div>
+                <div class="hero-card-text">
+                    <strong>JEE Advanced</strong>
+                    <span>AIR under 500: 15</span>
+                </div>
+            </div>
+            <div class="hero-card hero-card-float-3">
+                <div class="hero-card-icon">📚</div>
+                <div class="hero-card-text">
+                    <strong>Board Results</strong>
+                    <span>98%+ scorers: 340</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">Everything You Need to <span class="gradient-text">Succeed</span></h2>
+                <p class="section-subtitle">Our holistic approach combines expert teaching, advanced technology, and personalized mentorship</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">👨‍🏫</div>
+                    </div>
+                    <h3>Expert Faculty</h3>
+                    <p>Learn from IIT/AIIMS alumni with 10+ years of teaching experience and a passion for student success.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="100">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">📊</div>
+                    </div>
+                    <h3>Smart Analytics</h3>
+                    <p>AI-powered performance tracking that identifies your weak areas and creates personalized study plans.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="200">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">🧪</div>
+                    </div>
+                    <h3>Advanced Labs</h3>
+                    <p>Hands-on practical experience in state-of-the-art physics, chemistry, and biology laboratories.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="300">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">📱</div>
+                    </div>
+                    <h3>Digital Learning</h3>
+                    <p>Access recorded lectures, digital notes, and practice tests anytime through our mobile app.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="400">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">🎯</div>
+                    </div>
+                    <h3>Test Series</h3>
+                    <p>Weekly mock tests with detailed analysis reports and All-India ranking to benchmark progress.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-delay="500">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon">🤝</div>
+                    </div>
+                    <h3>Doubt Support</h3>
+                    <p>24/7 doubt clearing sessions with dedicated mentors, both in-person and online support available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fee Section -->
+    <section class="fees" id="fees">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fee Structure</span>
+                <h2 class="section-title">Transparent & <span class="gradient-text">Affordable Plans</span></h2>
+                <p class="section-subtitle">Invest in your future with our flexible payment options. Scholarships available for meritorious students.</p>
+            </div>
+            <div class="fee-grid">
+                <!-- Foundation -->
+                <div class="fee-card" data-aos="fade-up">
+                    <div class="fee-header">
+                        <span class="fee-badge">Class 9-10</span>
+                        <h3 class="fee-title">Foundation</h3>
+                        <p class="fee-desc">Build strong basics for competitive exams</p>
+                    </div>
+                    <div class="fee-price">
+                        <span class="fee-currency">₹</span>
+                        <span class="fee-amount">45,000</span>
+                        <span class="fee-period">/year</span>
+                    </div>
+                    <ul class="fee-features">
+                        <li><span class="check">✓</span> Complete NCERT Coverage</li>
+                        <li><span class="check">✓</span> Mental Ability & Olympiad Prep</li>
+                        <li><span class="check">✓</span> Weekly Tests & Analysis</li>
+                        <li><span class="check">✓</span> Doubt Clearing Sessions</li>
+                        <li><span class="check">✓</span> Study Material Included</li>
+                        <li><span class="check">✓</span> Parent-Teacher Meetings</li>
+                    </ul>
+                    <button class="btn btn-fee" onclick="scrollToSection('admission')">Get Started</button>
+                </div>
+
+                <!-- Target -->
+                <div class="fee-card fee-card-popular" data-aos="fade-up" data-delay="100">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="fee-header">
+                        <span class="fee-badge">Class 11-12</span>
+                        <h3 class="fee-title">Target</h3>
+                        <p class="fee-desc">Focused NEET / JEE preparation</p>
+                    </div>
+                    <div class="fee-price">
+                        <span class="fee-currency">₹</span>
+                        <span class="fee-amount">85,000</span>
+                        <span class="fee-period">/year</span>
+                    </div>
+                    <ul class="fee-features">
+                        <li><span class="check">✓</span> Complete JEE / NEET Syllabus</li>
+                        <li><span class="check">✓</span> Board + Competitive Integrated</li>
+                        <li><span class="check">✓</span> Daily Practice Problems (DPPs)</li>
+                        <li><span class="check">✓</span> All-India Test Series</li>
+                        <li><span class="check">✓</span> Personal Mentor Assigned</li>
+                        <li><span class="check">✓</span> Printed & Digital Material</li>
+                        <li><span class="check">✓</span> 24/7 Doubt Support</li>
+                    </ul>
+                    <button class="btn btn-primary btn-fee" onclick="scrollToSection('admission')">Get Started</button>
+                </div>
+
+                <!-- Dropper -->
+                <div class="fee-card" data-aos="fade-up" data-delay="200">
+                    <div class="fee-header">
+                        <span class="fee-badge">Dropper Batch</span>
+                        <h3 class="fee-title">Achiever</h3>
+                        <p class="fee-desc">Intensive 1-year program for re-attempt</p>
+                    </div>
+                    <div class="fee-price">
+                        <span class="fee-currency">₹</span>
+                        <span class="fee-amount">75,000</span>
+                        <span class="fee-period">/year</span>
+                    </div>
+                    <ul class="fee-features">
+                        <li><span class="check">✓</span> Complete Syllabus Revision</li>
+                        <li><span class="check">✓</span> Advanced Problem Solving</li>
+                        <li><span class="check">✓</span> Previous Year Paper Analysis</li>
+                        <li><span class="check">✓</span> Mock Test Every Week</li>
+                        <li><span class="check">✓</span> One-on-One Counseling</li>
+                        <li><span class="check">✓</span> Flexible Batch Timings</li>
+                    </ul>
+                    <button class="btn btn-fee" onclick="scrollToSection('admission')">Get Started</button>
+                </div>
+            </div>
+            <div class="fee-note">
+                <span class="fee-note-icon">💡</span>
+                <p><strong>Scholarship Alert:</strong> Up to 100% fee waiver for students scoring above 90% in qualifying exams. EMI options available for all courses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Student Success</span>
+                <h2 class="section-title">Hear From Our <span class="gradient-text">Achievers</span></h2>
+                <p class="section-subtitle">Real stories from real students who transformed their careers with us</p>
+            </div>
+            <div class="testimonials-track-wrapper">
+                <div class="testimonials-track" id="testimonialsTrack">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Excel Academy completely transformed my approach to studying. The teachers don't just teach — they inspire. I cracked NEET with AIR 156, and I owe it all to the incredible faculty here."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);">AP</div>
+                            <div class="author-info">
+                                <strong>Ananya Patel</strong>
+                                <span>NEET 2025 — AIR 156</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The test series and detailed analysis after each mock test was a game-changer. I could pinpoint exactly where I was going wrong. Got into IIT Bombay — my dream come true!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">RS</div>
+                            <div class="author-info">
+                                <strong>Rahul Sharma</strong>
+                                <span>JEE Advanced 2025 — AIR 89</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"As a dropper, I was anxious and demotivated. The mentors at Excel Academy believed in me when I didn't believe in myself. Their support system is truly exceptional."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">PK</div>
+                            <div class="author-info">
+                                <strong>Priya Kumari</strong>
+                                <span>NEET 2025 — AIR 312</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The foundation course I took in class 9-10 set me up perfectly. By class 12, competitive exams felt natural. Scored 99.2 percentile in JEE Mains without extra stress!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">VM</div>
+                            <div class="author-info">
+                                <strong>Vikash Mehra</strong>
+                                <span>JEE Mains 2025 — 99.2%ile</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The doubt-clearing sessions are phenomenal. No question is too small. The personal mentor I was assigned literally guided me through every tough phase. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #fa709a, #fee140);">SK</div>
+                            <div class="author-info">
+                                <strong>Sneha Kapoor</strong>
+                                <span>NEET 2025 — AIR 478</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"What sets Excel Academy apart is their holistic approach. It's not just about cracking exams — they build your conceptual understanding so deeply that you actually enjoy learning."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">AG</div>
+                            <div class="author-info">
+                                <strong>Arjun Gupta</strong>
+                                <span>JEE Advanced 2025 — AIR 234</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-controls">
+                <button class="testimonial-btn" id="prevBtn" aria-label="Previous testimonial">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                </button>
+                <div class="testimonials-dots" id="testimonialsDots"></div>
+                <button class="testimonial-btn" id="nextBtn" aria-label="Next testimonial">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form Section -->
+    <section class="admission" id="admission">
+        <div class="container">
+            <div class="admission-wrapper">
+                <div class="admission-info">
+                    <span class="section-tag">Join Us Today</span>
+                    <h2 class="section-title" style="text-align:left;">Start Your Journey to <span class="gradient-text">Excellence</span></h2>
+                    <p class="admission-desc">Fill out the admission form and our counselor will get in touch with you within 24 hours to guide you through the enrollment process.</p>
+                    <div class="admission-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">📞</div>
+                            <div>
+                                <strong>Call Us</strong>
+                                <span>+91 98765 43210</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">📍</div>
+                            <div>
+                                <strong>Visit Us</strong>
+                                <span>123 Education Hub, Kota, Rajasthan</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🕐</div>
+                            <div>
+                                <strong>Office Hours</strong>
+                                <span>Mon - Sat, 9:00 AM - 7:00 PM</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">✉️</div>
+                            <div>
+                                <strong>Email</strong>
+                                <span>admissions@excelacademy.in</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="admission-form-wrap">
+                    <form class="admission-form" id="admissionForm">
+                        <h3 class="form-title">Admission Enquiry Form</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="studentName">Student Name <span class="required">*</span></label>
+                                <input type="text" id="studentName" name="studentName" placeholder="Enter full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="parentName">Parent/Guardian Name <span class="required">*</span></label>
+                                <input type="text" id="parentName" name="parentName" placeholder="Parent's full name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="course">Course Interested In <span class="required">*</span></label>
+                                <select id="course" name="course" required>
+                                    <option value="">Select a course</option>
+                                    <option value="foundation">Foundation (Class 9-10)</option>
+                                    <option value="target-neet">Target NEET (Class 11-12)</option>
+                                    <option value="target-jee">Target JEE (Class 11-12)</option>
+                                    <option value="dropper-neet">Achiever NEET (Dropper)</option>
+                                    <option value="dropper-jee">Achiever JEE (Dropper)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="currentClass">Current Class <span class="required">*</span></label>
+                                <select id="currentClass" name="currentClass" required>
+                                    <option value="">Select class</option>
+                                    <option value="8">Class 8 (Moving to 9)</option>
+                                    <option value="9">Class 9 (Moving to 10)</option>
+                                    <option value="10">Class 10 (Moving to 11)</option>
+                                    <option value="11">Class 11 (Moving to 12)</option>
+                                    <option value="12">Class 12 Passed</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Message</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Any specific queries or information..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                            <span>Submit Application</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">🎉</div>
+                        <h3>Application Submitted!</h3>
+                        <p>Thank you for your interest. Our counselor will contact you within 24 hours.</p>
+                        <button class="btn btn-outline" onclick="resetForm()">Submit Another</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Excel<span class="logo-accent">Academy</span></span>
+                    </a>
+                    <p>Empowering students to achieve academic excellence since 2014. Trusted by thousands of families across India.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Why Us</a></li>
+                        <li><a href="#fees">Fee Structure</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#admission">Admission</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="#fees">Foundation (9-10)</a></li>
+                        <li><a href="#fees">Target NEET</a></li>
+                        <li><a href="#fees">Target JEE</a></li>
+                        <li><a href="#fees">Dropper Batch</a></li>
+                        <li><a href="#fees">Crash Course</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📞 +91 98765 43210</li>
+                        <li>✉️ info@excelacademy.in</li>
+                        <li>📍 123 Education Hub,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kota, Rajasthan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Excel Academy. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919876543210?text=Hi%20Excel%20Academy!%20I'm%20interested%20in%20admission.%20Please%20share%20details." 
+       class="whatsapp-btn" 
+       id="whatsappBtn"
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
